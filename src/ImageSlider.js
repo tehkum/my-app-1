@@ -16,8 +16,6 @@ const ImageSlider = ({images}) => {
   }; 
   return ( 
     <> 
-    <div className="tag"> 
-    </div> 
       <div className="imgslider"> 
         <Slider {...settings}> 
           {images.map((item) => ( 
